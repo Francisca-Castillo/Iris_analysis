@@ -1,9 +1,6 @@
 # Install and initialize packages
-install.packages("tidyverse")
-install.packages("GGally")
-install.packages("sampling")
-install.packages("plotly")
-install.packages("tibble")
+renv::install(c("tidyverse", "GGally", "sampling", "plotly", "tibble" ))
+
 library(tidyverse)
 library(GGally)
 library(tidyr)
